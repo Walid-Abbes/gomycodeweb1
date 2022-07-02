@@ -1,0 +1,24 @@
+CMD commands
+cd current directory 
+mkdir make dir
+code . open vscode 
+
+**************************************************************************************************************
+Git commands
+git init insialize repo
+git remote add origin repolink go here 
+git branch -M main 
+git add .
+git commit -m "commit message go here"
+git push -u origin main
+
+***************************************************************************************************************
+html 
+! + enter boilerplate create a standar template 
+<div> one under one
+<span> one beside one
+*************************************************************************************************************
+css 
+inline inside the <></>
+intern inside the head <style></style>
+external css 
