@@ -11,6 +11,7 @@ git branch -M main
 git add .
 git commit -m "commit message go here"
 git push -u origin main
+5
 
 ***************************************************************************************************************
 html 
@@ -21,4 +22,4 @@ html
 css 
 inline inside the <></>
 intern inside the head <style></style>
-external css 
+external css
