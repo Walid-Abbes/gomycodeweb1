@@ -10,9 +10,11 @@
   align-items: center;
   justify-content: space-between;
 }
-.links {
-    
-}
+
 a {
     margin: 5px;
+}
+@media (max-width: 640px) {
+       
+    
 }
