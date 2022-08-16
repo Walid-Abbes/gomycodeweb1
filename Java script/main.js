@@ -52,5 +52,8 @@ console.log(gog.includes("on"));
 console.log(magog.includes("on"));
 console.log(Math.floor(Math.random() * 101));
 
-const rndInt = Math.floor(Math.random() * 101) + 50
-console.log(rndInt)
+const rndInt = Math.floor(Math.random() * 101) + 50;
+console.log(rndInt);
+
+let arr = [1, 2 , 3];
+console.log(arr);
