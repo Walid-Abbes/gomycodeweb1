@@ -77,6 +77,15 @@ img {
   gap: 10px;
 }
 
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #393d3f;
+}
+
 footer {
   position: absolute;
   text-align: center;
@@ -115,4 +124,51 @@ footer {
   footer {
     bottom: 0;
   }
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home {
+  background-color: #393d3f;
+  color: #fffaff;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.shopkart {
+  display: grid;
+  grid-template-columns: repeat(1, 400px);
+  margin: 15px;
+  gap: 15px;
+  justify-content: center;
+}
+
+.cart-item {
+  border: 3px solid #393d3f;
+  border-radius: 8px;
+  display: flex;
+}
+.price-x {
+  width: 245px;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.price-t {
+  display: flex;
+  width: auto;
+  gap: 5px;
+}
+.price-k {
+  background-color: #393d3f;
+  color: #fffaff;
+  padding: 5px;
+  border-radius: 8px;
 }
