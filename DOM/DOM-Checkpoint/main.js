@@ -72,7 +72,7 @@ let up = (id) => {
     search.item++;
   }
   console.log(bskt);
-  update();
+  update(sitem.id);
 };
 let down = (id) => {
   let sitem = id;
@@ -83,10 +83,10 @@ let down = (id) => {
     search.item--;
   }
   console.log(bskt);
-  update();
+  update(sitem.id);
 };
-let update = (but var here) => {
+let update = (id) => {
   let search = bskt.find((x) => x.id === id);
   console.log(search.item);
-  document.getElementById(id);
+  document.getElementById(id).innerHTML = search.item;
 };

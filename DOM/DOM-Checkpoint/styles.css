@@ -62,13 +62,12 @@
   align-items: center;
   padding: 6px;
 }
-img{
- border-radius: 6px 6px 0 0;
+img {
+  border-radius: 6px 6px 0 0;
 }
 .btn {
   display: flex;
   gap: 10px;
-
 }
 
 .details {
