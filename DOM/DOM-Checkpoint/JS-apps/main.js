@@ -10,7 +10,6 @@ function shopgen() {
       return `
       <div class="itemcard" id="itemcard">
         <img
-          width="216"
           src="${img}"
           alt="${name}"
         />

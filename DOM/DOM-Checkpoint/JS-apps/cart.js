@@ -14,25 +14,26 @@ function kartGen() {
       .map((x) => {
         let { id, item } = x;
         let search = itemdata.find((y) => y.id === id) || [];
+        let { img, name, price } = search;
         return `
         <div class="cart-item">
-        <img width = "150" src="${search.img}" alt="">
+        <img  src="${img}" alt="">
         <div class="info">
         <div class="price-x">
         <h4 class ="price-t">
-        <p> ${search.name}</p>
-        <p class ="price-k" > DA ${search.price}</p>
+        <p> ${name}</p>
+        <p class ="price-k" > DA ${price}</p>
         </h4>
         <i onclick="removeItem(${id})" class="bi bi-x-circle"></i>
         </div>
-
-        <div class="btn">
-            <i onclick = "down(${id})" class="bi bi-dash-circle"></i>
-           <div id=${id} class="quantity">${item}</div>
-            <i onclick = "up(${id})" class="bi bi-plus-circle"></i>
-          </div>
-        <h3>$ ${item * search.price}</h3>
-    
+        <div class="dtf">
+         <div class="btn">
+         <i onclick = "down(${id})" class="bi bi-dash-circle"></i>
+         <div id=${id} class="quantity">${item}</div>
+         <i onclick = "up(${id})" class="bi bi-plus-circle"></i>
+         </div>
+         <h3>$ ${item * price}</h3>
+         </div>
         </div>
         </div>
         `;
@@ -86,6 +87,7 @@ let update = (id) => {
   kartGen();
   document.getElementById(id).innerHTML = search.item;
   calc();
+  bill();
 };
 function calc() {
   let cart = document.getElementById("amount");
@@ -96,10 +98,12 @@ let removeItem = (id) => {
   let st = id;
   bskt = bskt.filter((x) => x.id !== st.id);
   kartGen();
+  calc();
+  bill();
   localStorage.setItem("data", JSON.stringify(bskt));
 };
 
-function bill(params) {
+function bill() {
   if (bskt.length !== 0) {
     let amount = bskt
       .map((x) => {
@@ -109,10 +113,18 @@ function bill(params) {
       })
       .reduce((x, y) => x + y, 0);
     label.innerHTML = `
-      <h2> Your BILL : DA ${amount}</h2>
+      <h2> Your bill : DA ${amount}</h2>
+      <button onclick="cancel()" class="cancel">Cancel payment</button>
+      <button  class="pay">Proceed payment</button>
       `;
   } else {
   }
 }
-
 bill();
+
+function cancel() {
+  bskt = [];
+  kartGen();
+  calc();
+  localStorage.setItem("data", JSON.stringify(bskt));
+}
