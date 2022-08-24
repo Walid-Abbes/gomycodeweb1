@@ -115,7 +115,7 @@ function bill() {
     label.innerHTML = `
       <h2> Your bill : DA ${amount}</h2>
       <button onclick="cancel()" class="cancel">Cancel payment</button>
-      <button  class="pay">Proceed payment</button>
+      <button onclick="cancel()" class="pay">Proceed payment</button>
       `;
   } else {
   }

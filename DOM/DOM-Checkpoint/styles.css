@@ -192,7 +192,6 @@ footer {
   padding: 20px;
 }
 
-
 @media (max-width: 1000px) {
   .shop {
     grid-template-columns: repeat(2, 220px);
@@ -204,7 +203,6 @@ footer {
     width: 100%;
     padding: 20px;
   }
-  
 }
 
 @media (max-width: 500px) {
@@ -222,6 +220,5 @@ footer {
 
 @media (min-width: 1000px) {
   footer {
-    
   }
 }
