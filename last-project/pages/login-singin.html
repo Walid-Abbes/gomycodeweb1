@@ -4,9 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Book Club</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="/last-project/styles/login.css" />
   </head>
   <body>
-    
+    <div class="container">
+      <div class="forms">
+        <div class="form login">
+          <span class="title">Login</span>
+          <form action="#">
+            <div class="input-container">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="password"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="uil uil-envelope-lock icon"></i>
+              <i class="uil uil-eye-slash showPw"></i>
+            </div>
+            <div class="checkBox">
+              <div class="checkBoxContent">
+                <input type="checkbox" id="logCheck" />
+                <label for="logCheck" class="text">Remember me</label>
+              </div>
+              <a href="#" class="text">Forgot password</a>
+            </div>
+            <div class="input-container button">
+              <input type="button" value="Login now" />
+            </div>
+          </form>
+          <div class="signUp">
+            <span class="text"
+              >Not a member?
+              <a href="#" class="text signUpText"> Signup now</a>
+            </span>
+          </div>
+        </div>
+        <!-- registration -->
+        <div class="form login">
+          <span class="title">Registration</span>
+          <form action="#">
+            <div class="input-container">
+              <input type="text" placeholder="Enter your name" required />
+              <i class="uil uil-user-circle"></i>
+            </div>
+            <div class="input-container">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="password"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="uil uil-envelope-lock icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="password"
+                placeholder="confirm your password"
+                required
+              />
+              <i class="uil uil-envelope-lock icon"></i>
+              <i class="uil uil-eye-slash showPw"></i>
+            </div>
+            <div class="checkBox">
+              <div class="checkBoxContent">
+                <input type="checkbox" id="logCheck" />
+                <label for="logCheck" class="text">Remember me</label>
+              </div>
+              <div class="checkBoxContent">
+                <input type="checkbox" id="logCheck" />
+                <label for="logCheck" class="text">Premium account</label>
+              </div>
+            </div>
+            <div class="input-container button">
+              <input type="button" value="Login now" />
+            </div>
+          </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

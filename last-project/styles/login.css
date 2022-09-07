@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/last-project/assets/imgs/marcel-strauss-EVnvDGaQ504-unsplash.jpg);
+  background-size: cover;
+}
+.container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.container .form {
+  padding: 40px;
+}
+
+.container .form .title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form .title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 30px;
+  background-color: #4070f4;
+  border-radius: 25px;
+}
+
+.form .input-container {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.input-container input {
+  position: absolute;
+  background-color: #f2f2f2;
+  height: 100%;
+  width: 100%;
+  padding: 0 35px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  border-top: 2px solid transparent;
+  transition: all 0.2 ease;
+}
+.input-container i {
+  position: absolute;
+  top: 50%;
+
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 24px;
+}
+
+.input-container i.icon {
+  left: 0;
+}
+.input-container i.showPw {
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input-container input:is(:focus, :valid) {
+  border-bottom-color: #4070f4;
+}
+.input-container input:is(:focus, :valid) ~ i {
+  color: #4070f4;
+}
+
+.form .checkBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkBox .checkBoxContent {
+  display: flex;
+  align-items: center;
+}
+
+.checkBoxContent input {
+  margin: 0 10px -2px 5px;
+  accent-color: #4070f4;
+}
+
+.form .text {
+  color: #212529;
+  font-size: 15px;
+}
+
+.form a.text {
+  color: #4070f4;
+  text-decoration: none;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
+
+.form .button {
+  margin-top: 35px;
+}
+
+.form .button input {
+  border: none;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button input:hover {
+  background-color: #4070f4;
+}
+
+.form .signUp {
+  margin-top: 30px;
+  text-align: center;
+}
