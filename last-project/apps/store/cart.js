@@ -43,7 +43,7 @@ function kartGen() {
     shopkart.innerHTML = ``;
     label.innerHTML = `
     <h3>Your cart is empty</h3>
-    <a href="DOM-Checkpoint.html"> <button class="home">Back to shop</button> </a>
+    <a href="store.html"> <button class="home">Back to shop</button> </a>
     `;
   }
 }
