@@ -24,6 +24,7 @@
             <div class="input-container">
               <input
                 type="password"
+                class="password"
                 placeholder="Enter your password"
                 required
               />
@@ -44,12 +45,12 @@
           <div class="signUp">
             <span class="text"
               >Not a member?
-              <a href="#" class="text signUpText"> Signup now</a>
+              <a href="#" class="text signUpLink"> Signup now</a>
             </span>
           </div>
         </div>
         <!-- registration -->
-        <div class="form login">
+        <div class="form signup">
           <span class="title">Registration</span>
           <form action="#">
             <div class="input-container">
@@ -63,6 +64,7 @@
             <div class="input-container">
               <input
                 type="password"
+                class="password"
                 placeholder="Enter your password"
                 required
               />
@@ -71,6 +73,7 @@
             <div class="input-container">
               <input
                 type="password"
+                class="password"
                 placeholder="confirm your password"
                 required
               />
@@ -86,9 +89,13 @@
                 <input type="checkbox" id="logCheck" />
                 <label for="logCheck" class="text">Premium account</label>
               </div>
+              <span class="text"
+              >Already a member?
+              <a href="#" class="text logInLink">login</a>
+            </span>
             </div>
             <div class="input-container button">
-              <input type="button" value="Login now" />
+              <input type="button" value="Sign up now" />
             </div>
           </form>
 
@@ -96,5 +103,7 @@
         </div>
       </div>
     </div>
+
+    <script src="/last-project/apps/login.js"></script>
   </body>
 </html>

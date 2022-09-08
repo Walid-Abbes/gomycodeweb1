@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 150vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,12 +19,43 @@ body {
   border-radius: 10px;
   background-color: #f2f2f2;
   box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.container .forms {
+  display: flex;
+  align-items: center;
+  height: 450;
+  width: 200%;
+  transition: height 0.2 ease;
 }
 
 .container .form {
+  width: 50%;
   padding: 40px;
+  background-color: #f2f2f2;
+  transition: margin-left 0.18s ease;
 }
 
+.container.active .login {
+  margin-left: -50%;
+  opacity: 0;
+  transition: margin-left 0.18s ease, opacity 0.15s ease;
+}
+.container .signup {
+  opacity: 0;
+  transition: opacity 0.09s ease;
+}
+
+.container.active .signup {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+.container.active .forms {
+  height: 600;
+}
+
+/*  */
 .container .form .title {
   position: relative;
   font-size: 30px;
