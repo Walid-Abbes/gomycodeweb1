@@ -91,7 +91,7 @@ body {
   font-size: 18px;
   border-bottom: 1px solid #ccc;
   border-top: 2px solid transparent;
-  transition: all 0.2 ease;
+  transition: all 0.2s ease;
 }
 .input-container i {
   position: absolute;

@@ -1,3 +1,125 @@
-/* home page styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 5px 50px;
+  /* margin-bottom: 30px; */
+  align-items: center;
+  background-color: #ffffff;
+}
 
-/* home page styles ends */
+.logo {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainLinks {
+  /* border: solid; */
+  display: flex;
+  width: 35rem;
+  justify-content: space-between;
+}
+.navBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 15px;
+  border: none;
+}
+.navBtn a {
+  text-align: center;
+  text-decoration: none;
+
+  width: 100%;
+}
+/* hero section */
+
+.hero {
+  /* img needs a gradient */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/last-project/assets/imgs/matthew-feeney-Nwkh-n6l25w-unsplash.jpg);
+  background-size: cover;
+  height: 91vh;
+}
+.heroText h1 {
+  color: #f2f2f2;
+  font-size: 5rem;
+  font-weight: 900;
+}
+/* us */
+.us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 91vh;
+  border: solid;
+  margin: 0px 30px 0px 30px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+}
+.usImg img {
+  border-radius: 10%;
+}
+.usImg img,
+.usInfo {
+  width: 650px;
+}
+
+.usInfo {
+  width: 450px;
+  font-size: 20px;
+}
+.usInfo h3 {
+  font-size: 28px;
+}
+
+/* offers */
+.subscriptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 91vh;
+  border: solid;
+  margin: 0px 30px 0px 30px;
+}
+
+/* featured */
+
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 91vh;
+  border: solid;
+  margin: 0px 30px 0px 30px;
+}
+/* mailList */
+.mailList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 91vh;
+  border: solid;
+  margin: 0px 30px 0px 30px;
+}
+
+footer {
+  background-color: #cccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
