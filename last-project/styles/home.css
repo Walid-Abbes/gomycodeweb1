@@ -137,15 +137,85 @@ a:visited {
   letter-spacing: 3px;
   background-color: #0085ff;
 }
-/* featured */
+/* ComingSoon */
 
-.featured {
+.comingSoon {
+  height: 91vh;
+  margin: 0px 30px 0px 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 91vh;
-  margin: 0px 30px 0px 30px;
+  align-content: center;
 }
+.comingSoonInfo {
+  width: 500px;
+}
+.comingSoon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  top: 50%;
+}
+
+.carousel {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  display: block;
+  width: 325px;
+  height: 462.03px;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: #0085ff;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 6rem;
+}
+
 /* mailList */
 .mailList {
   display: flex;
