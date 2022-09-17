@@ -1,7 +1,7 @@
 let itemdata = [
   {
     id: "a",
-    name: "PS4 controller",
+    name: "the art city",
     price: "1500",
     description: "brand new DualShock 4 controller made by sony",
     img: "/last-project/assets/books/book-1.png",
