@@ -7,6 +7,8 @@ body {
   background-image: url(/last-project/assets/imgs/marcel-strauss-EVnvDGaQ504-unsplash.jpg);
   background-size: cover;
 }
+
+
 .contactUs {
   position: relative;
   min-height: 100vh;
@@ -15,8 +17,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
-
+.kntk{
+  background-color: #f8f9fa;
+  height: 500px;
+}
 .contactUs .content {
   max-width: 800px;
   text-align: center;
@@ -34,7 +40,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,10 +70,12 @@ body {
 .container .contactInfo .box .text {
   display: flex;
   margin-left: 20px;
+  margin-top: 8px;
   font-size: 16px;
-  color: #fff;
+  color: #333;
   flex-direction: column;
   font-weight: 200;
+
 }
 .container .contactInfo .box .text h4 {
   font-weight: 500;
@@ -77,7 +85,7 @@ body {
 .contactForm {
   width: 40%;
   padding: 40px;
-  background: #fff;
+  background: #f8f9fa;
 }
 
 .contactForm h2 {
@@ -126,9 +134,20 @@ body {
 
 .contactForm .inputBox input[type="submit"] {
   width: 100%;
-  background: #666;
+  background: #0085ff;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.uil {
+  font-size: larger;
+  color: #0085ff;
 }

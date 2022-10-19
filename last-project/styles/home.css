@@ -13,6 +13,7 @@ body {
 a:visited {
   color: inherit;
 }
+
 /* navbar styles */
 .nav {
   display: flex;
@@ -156,7 +157,7 @@ a:visited {
   flex-direction: column;
   height: 160px;
   width: 450px;
-  border: solid;
+  background-color: #f8f9fa;
 }
 .slider{
   width: 325px;
@@ -264,14 +265,7 @@ a:visited {
   background: #0085ff;
 }
 
-/* mailList */
-.mailList {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 91vh;
-  margin: 0px 30px 0px 30px;
-}
+
 
 footer {
   background-color: #0085ff;
