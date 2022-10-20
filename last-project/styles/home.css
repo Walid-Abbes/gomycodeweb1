@@ -157,7 +157,10 @@ a:visited {
   flex-direction: column;
   height: 160px;
   width: 450px;
+  padding: 15px;
   background-color: #f8f9fa;
+  border-radius: 20px;
+  font-size: 20px;
 }
 .slider{
   width: 325px;
@@ -265,11 +268,44 @@ a:visited {
   background: #0085ff;
 }
 
-
+/*footer section*/
 
 footer {
   background-color: #0085ff;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.socials{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.socialsLinks {
+  list-style: none;
+  padding: 5px;
+  font-size: larger;
+}
+.socialsLinks a{
+  color: #f8f9fa;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.socialsLinks a:visited {
+  color:  #f8f9fa;
+}
+.copyR{
+  color: #f8f9fa;
+  padding: 5px;
+  font-size: larger;
+}
+
+.contactInfo {
+  color: #f8f9fa;
+}
+.contactInfo h5{
+  padding: 5px;
+  font-size: larger;
 }
