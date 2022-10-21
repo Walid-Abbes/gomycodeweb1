@@ -1,94 +1,98 @@
 let itemdata = [
   {
     id: "a",
-    name: "the art city",
+    name: "Book 1",
     price: "1500",
-    description: "brand new DualShock 4 controller made by sony",
+    description: " book book book book book book book book book book book book book book book book",
     img: "/last-project/assets/books/book-1.png",
   },
+  
   {
     id: "b",
-    name: "PS4",
+    name: "Book 2",
     price: "1500",
-    description:
-      "The PlayStation 4 is a home video game console developed by Sony Computer Entertainment",
+    description: " book book book book book book book book book book book book book book book book",
     img: "/last-project/assets/books/book-2.png",
   },
+  
   {
     id: "c",
-    name: "N°5 Chanel",
+    name: "Book 3",
     price: "1500",
-    description:
-      "Chanel No. 5 was the first perfume launched by French couturier Gabrielle 'Coco' Chanel in 1921",
+    description: " book book book book book book book book book book book book book book book book",
     img: "/last-project/assets/books/book-3.png",
   },
-
+  
   {
     id: "d",
-    name: "Bike",
+    name: "Book 4",
     price: "1500",
-    description:
-      "RebusSchwinn S29 Mens Mountain Bike, 29-Inch Wheels, 18-Inch/Medium Aluminum Frame, Dual-Suspension, Mechanical Disc Brakes, Multiple Colorste",
+    description: " book book book book book book book book book book book book book book book book",
     img: "/last-project/assets/books/book-4.png",
   },
+  
   {
     id: "e",
-    name: "Nikon camera",
+    name: "Book 5",
     price: "1500",
-    description:
-      " the D7515001500 delivers the game-changing resolution, ISO range, image processing and energy efficiency of the award-winning D515001500",
+    description: " book book book book book book book book book book book book book book book book",
     img: "/last-project/assets/books/book-5.png",
   },
+  
   {
     id: "f",
-    name: "Shoes",
+    name: "Book 6",
     price: "1500",
-    description:
-      "We prioritize comfort, especially for our growing athletes, you can take these lightweight, breathable running shoes from all-day play to anytime wear and even track practice",
+    description: " book book book book book book book book book book book book book book book book",
     img: "/last-project/assets/books/book-6.png",
   },
+  
   {
     id: "g",
-    name: "House plant",
+    name: "Book 7",
     price: "1500",
-    description: "Plant",
+    description: " book book book book book book book book book book book book book book book book",
     img: "/last-project/assets/books/book-7.png",
   },
-  {
-    id: "h",
-    name: "Red lipstick",
-    price: "1500",
-    description:
-      "The only red lipstick you'll ever need, matched to your skin tone and undertone.",
-    img: "/last-project/assets/books/book-8.png",
-  },
-  {
-    id: "p",
-    name: "Stool",
-    price: "1500",
-    description: "High quality wooden stool",
-    img: "/last-project/assets/books/book-9.png",
-  },
+  
   {
     id: "i",
-    name: "Rolex",
+    name: "Book 8",
     price: "1500",
-    description: "High grade Rolex wristwatch made with real gold and silver",
-    img: "/last-project/assets/books/book-10.png",
+    description: " book book book book book book book book book book book book book book book book",
+    img: "/last-project/assets/books/book-8.png",
   },
+  
   {
     id: "j",
-    name: "Xbox controller",
+    name: "Book 9",
     price: "1500",
-    description: "brand new Xbox one controller made by Xbox",
-    img: "/last-project/assets/books/book-11.png",
+    description: " book book book book book book book book book book book book book book book book",
+    img: "/last-project/assets/books/book-9.png",
   },
+  
   {
     id: "k",
-    name: "iPhone",
+    name: "Book 10",
     price: "1500",
-    description:
-      "charger and headphones not included, just get the Rolex dude (this post was made by the Samsung gang)  ",
-    img: "/last-project/assets/books/book-12.png",
+    description: " book book book book book book book book book book book book book book book book",
+    img: "/last-project/assets/books/book-10.png",
   },
+  
+  {
+    id: "l",
+    name: "Book 11",
+    price: "1500",
+    description: " book book book book book book book book book book book book book book book book",
+    img: "/last-project/assets/books/book-11.png",
+  },
+  
+  {
+    id: "o",
+    name: "Book 12",
+    price: "1500",
+    description: " book book book book book book book book book book book book book book book book",
+    img: "/last-project/assets/books/book-12.png",
+  }
+  
 ];
